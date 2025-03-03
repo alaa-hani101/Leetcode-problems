@@ -24,7 +24,7 @@ public:
 
         for (int i = 0 ; i < size(nodes); ++i){
             if (i % 2 == 0){
-                head->next = nodes[v];
+                head->next = nodes[end];
                 end--;
             }
             else{
